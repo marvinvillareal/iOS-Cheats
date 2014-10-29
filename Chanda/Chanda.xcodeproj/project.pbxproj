@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5FDA3814574045008D655D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA3514574045008D655D /* FMDatabase.m */; };
+		8D5FDA3914574045008D655D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA3714574045008D655D /* FMResultSet.m */; };
+		8D5FDA3C14574071008D655D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5FDA3B14574071008D655D /* libsqlite3.dylib */; };
+		8D5FDA3E14574096008D655D /* Customers.db in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FDA3D14574096008D655D /* Customers.db */; };
+		8D5FDA4214574220008D655D /* FMDBDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA4114574220008D655D /* FMDBDataAccess.m */; };
+		8D5FDA4614574296008D655D /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA4514574296008D655D /* Utility.m */; };
+		8D5FDA4914574693008D655D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA4814574693008D655D /* Customer.m */; };
+		8D5FDA4C1457475F008D655D /* CustomersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA4B1457475F008D655D /* CustomersViewController.m */; };
+		8D5FDA4F14575133008D655D /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FDA4E14575133008D655D /* AddCustomerViewController.m */; };
+		8D9FBA3B14573E75007931B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9FBA3A14573E75007931B1 /* UIKit.framework */; };
+		8D9FBA3D14573E75007931B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9FBA3C14573E75007931B1 /* Foundation.framework */; };
+		8D9FBA3F14573E75007931B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9FBA3E14573E75007931B1 /* CoreGraphics.framework */; };
+		8D9FBA4514573E75007931B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D9FBA4314573E75007931B1 /* InfoPlist.strings */; };
+		8D9FBA4714573E75007931B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FBA4614573E75007931B1 /* main.m */; };
+		8D9FBA4B14573E76007931B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FBA4A14573E76007931B1 /* AppDelegate.m */; };
+		8D9FBA4E14573E76007931B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9FBA4C14573E76007931B1 /* MainStoryboard.storyboard */; };
+		8D9FBA5114573E76007931B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FBA5014573E76007931B1 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D5FDA3414574045008D655D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8D5FDA3514574045008D655D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8D5FDA3614574045008D655D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8D5FDA3714574045008D655D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8D5FDA3B14574071008D655D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8D5FDA3D14574096008D655D /* Customers.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Customers.db; path = ../../LearningFMDB/LearningFMDB/Customers.db; sourceTree = "<group>"; };
+		8D5FDA4014574220008D655D /* FMDBDataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBDataAccess.h; sourceTree = "<group>"; };
+		8D5FDA4114574220008D655D /* FMDBDataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBDataAccess.m; sourceTree = "<group>"; };
+		8D5FDA4414574296008D655D /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		8D5FDA4514574296008D655D /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		8D5FDA4714574693008D655D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		8D5FDA4814574693008D655D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		8D5FDA4A1457475F008D655D /* CustomersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomersViewController.h; sourceTree = "<group>"; };
+		8D5FDA4B1457475F008D655D /* CustomersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersViewController.m; sourceTree = "<group>"; };
+		8D5FDA4D14575132008D655D /* AddCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
+		8D5FDA4E14575133008D655D /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerViewController.m; sourceTree = "<group>"; };
+		8D9FBA3614573E75007931B1 /* Chanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9FBA3A14573E75007931B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D9FBA3C14573E75007931B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D9FBA3E14573E75007931B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D9FBA4214573E75007931B1 /* Chanda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chanda-Info.plist"; sourceTree = "<group>"; };
+		8D9FBA4414573E75007931B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D9FBA4614573E75007931B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D9FBA4814573E75007931B1 /* Chanda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chanda-Prefix.pch"; sourceTree = "<group>"; };
+		8D9FBA4914573E76007931B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D9FBA4A14573E76007931B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D9FBA4D14573E76007931B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8D9FBA4F14573E76007931B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D9FBA5014573E76007931B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D9FBA3314573E75007931B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5FDA3C14574071008D655D /* libsqlite3.dylib in Frameworks */,
+				8D9FBA3B14573E75007931B1 /* UIKit.framework in Frameworks */,
+				8D9FBA3D14573E75007931B1 /* Foundation.framework in Frameworks */,
+				8D9FBA3F14573E75007931B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D5FDA3F145741F8008D655D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA4014574220008D655D /* FMDBDataAccess.h */,
+				8D5FDA4114574220008D655D /* FMDBDataAccess.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8D5FDA4314574279008D655D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA4414574296008D655D /* Utility.h */,
+				8D5FDA4514574296008D655D /* Utility.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		8D9FBA2B14573E75007931B1 = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA3B14574071008D655D /* libsqlite3.dylib */,
+				8D9FBA4014573E75007931B1 /* Chanda */,
+				8D9FBA3914573E75007931B1 /* Frameworks */,
+				8D9FBA3714573E75007931B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9FBA3714573E75007931B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9FBA3614573E75007931B1 /* Chanda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9FBA3914573E75007931B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D9FBA3A14573E75007931B1 /* UIKit.framework */,
+				8D9FBA3C14573E75007931B1 /* Foundation.framework */,
+				8D9FBA3E14573E75007931B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D9FBA4014573E75007931B1 /* Chanda */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA4314574279008D655D /* Utilities */,
+				8D5FDA3F145741F8008D655D /* Services */,
+				8D9FBA5814573FCC007931B1 /* FMDB */,
+				8D9FBA5714573FC1007931B1 /* Entities */,
+				8D9FBA4914573E76007931B1 /* AppDelegate.h */,
+				8D9FBA4A14573E76007931B1 /* AppDelegate.m */,
+				8D9FBA4C14573E76007931B1 /* MainStoryboard.storyboard */,
+				8D9FBA4F14573E76007931B1 /* ViewController.h */,
+				8D9FBA5014573E76007931B1 /* ViewController.m */,
+				8D5FDA4A1457475F008D655D /* CustomersViewController.h */,
+				8D5FDA4B1457475F008D655D /* CustomersViewController.m */,
+				8D5FDA4D14575132008D655D /* AddCustomerViewController.h */,
+				8D5FDA4E14575133008D655D /* AddCustomerViewController.m */,
+				8D9FBA4114573E75007931B1 /* Supporting Files */,
+			);
+			path = Chanda;
+			sourceTree = "<group>";
+		};
+		8D9FBA4114573E75007931B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA3D14574096008D655D /* Customers.db */,
+				8D9FBA4214573E75007931B1 /* Chanda-Info.plist */,
+				8D9FBA4314573E75007931B1 /* InfoPlist.strings */,
+				8D9FBA4614573E75007931B1 /* main.m */,
+				8D9FBA4814573E75007931B1 /* Chanda-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D9FBA5714573FC1007931B1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA4714574693008D655D /* Customer.h */,
+				8D5FDA4814574693008D655D /* Customer.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		8D9FBA5814573FCC007931B1 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FDA3414574045008D655D /* FMDatabase.h */,
+				8D5FDA3514574045008D655D /* FMDatabase.m */,
+				8D5FDA3614574045008D655D /* FMResultSet.h */,
+				8D5FDA3714574045008D655D /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D9FBA3514573E75007931B1 /* Chanda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9FBA5414573E76007931B1 /* Build configuration list for PBXNativeTarget "Chanda" */;
+			buildPhases = (
+				8D9FBA3214573E75007931B1 /* Sources */,
+				8D9FBA3314573E75007931B1 /* Frameworks */,
+				8D9FBA3414573E75007931B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chanda;
+			productName = Chanda;
+			productReference = 8D9FBA3614573E75007931B1 /* Chanda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D9FBA2D14573E75007931B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = HighOnCoding;
+			};
+			buildConfigurationList = 8D9FBA3014573E75007931B1 /* Build configuration list for PBXProject "Chanda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D9FBA2B14573E75007931B1;
+			productRefGroup = 8D9FBA3714573E75007931B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D9FBA3514573E75007931B1 /* Chanda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D9FBA3414573E75007931B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9FBA4514573E75007931B1 /* InfoPlist.strings in Resources */,
+				8D9FBA4E14573E76007931B1 /* MainStoryboard.storyboard in Resources */,
+				8D5FDA3E14574096008D655D /* Customers.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D9FBA3214573E75007931B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9FBA4714573E75007931B1 /* main.m in Sources */,
+				8D9FBA4B14573E76007931B1 /* AppDelegate.m in Sources */,
+				8D9FBA5114573E76007931B1 /* ViewController.m in Sources */,
+				8D5FDA3814574045008D655D /* FMDatabase.m in Sources */,
+				8D5FDA3914574045008D655D /* FMResultSet.m in Sources */,
+				8D5FDA4214574220008D655D /* FMDBDataAccess.m in Sources */,
+				8D5FDA4614574296008D655D /* Utility.m in Sources */,
+				8D5FDA4914574693008D655D /* Customer.m in Sources */,
+				8D5FDA4C1457475F008D655D /* CustomersViewController.m in Sources */,
+				8D5FDA4F14575133008D655D /* AddCustomerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D9FBA4314573E75007931B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9FBA4414573E75007931B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D9FBA4C14573E76007931B1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9FBA4D14573E76007931B1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D9FBA5214573E76007931B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D9FBA5314573E76007931B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D9FBA5514573E76007931B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chanda/Chanda-Prefix.pch";
+				INFOPLIST_FILE = "Chanda/Chanda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D9FBA5614573E76007931B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chanda/Chanda-Prefix.pch";
+				INFOPLIST_FILE = "Chanda/Chanda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D9FBA3014573E75007931B1 /* Build configuration list for PBXProject "Chanda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9FBA5214573E76007931B1 /* Debug */,
+				8D9FBA5314573E76007931B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9FBA5414573E76007931B1 /* Build configuration list for PBXNativeTarget "Chanda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9FBA5514573E76007931B1 /* Debug */,
+				8D9FBA5614573E76007931B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D9FBA2D14573E75007931B1 /* Project object */;
+}
